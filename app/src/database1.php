@@ -1,16 +1,14 @@
 <?php
-$db_host = "db";
-$db_user = "root";
-$db_pass = "super_secret123?";
-$db_name = "courses";
+    include ("dbinfo.php");
+    
+    //establish a DB connection
+    $conn = mysqli_connect($db_host, $db_user, $db_pass);
 
-$conn = mysqli_connect($db_host, $db_user, $db_pass);
+    //check for valid connecton
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+    echo "Connected successfully";
 
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-echo "Connected successfully";
-
-mysqli_close($conn);
-
+    mysqli_close($conn);
 ?>
