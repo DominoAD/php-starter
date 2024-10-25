@@ -7,7 +7,7 @@
         } ?> href='./index.php'>Home</a>
         <a <?php if ($activePage == "projects") {
             echo 'class="active"';
-        } ?> href='./projects.php'>Projects</a>
+        } ?> href='./addProgram.php'>Add Form</a>
         <a <?php if ($activePage == "courses") {
             echo 'class="active"';
         } ?> href='./courses.php'>Courses</a>
@@ -19,7 +19,7 @@
         } ?> href='./Database'>Database List</a>
         <a <?php if ($activePage == "contact") {
             echo 'class="active"';
-        } ?> href='./contact.php'>Contact</a>
+        } ?> href='http://localhost:8113/'>phpMyAdmin</a>
         <a <?php if ($activePage == "email") {
             echo 'class="active"';
         } ?> href='./email.php'>Email</a>

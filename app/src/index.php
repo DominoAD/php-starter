@@ -15,9 +15,9 @@ $pageName = 'Home';
 <body>
     <?php include './sections/header.php' ?>
     <?php include './sections/nav.php' ?>
-    <section>
+    <section class="indexContent" >
         <article>
-            <img src="https://placekitten.com/g/800/600" alt="Kitten">
+                <img src=".jpg" alt="Kitten" style="width: 200px; height: 200px;">
             <p>Emmet command to get 4 paragraphs of Lorem Ipsum: (p>lorem25)*4</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero eaque fugit laborum nihil maiores molestias, enim porro nisi voluptates, impedit quas velit id? Rerum, nostrum?</p>
             <p>Quasi minus autem accusantium fugit earum optio quam! Quasi et ducimus hic incidunt suscipit accusamus soluta consequatur, nemo asperiores adipisci! Ab ut facilis cumque asperiores.</p>
