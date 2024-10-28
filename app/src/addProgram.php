@@ -37,7 +37,7 @@
     <section>
         <article>
             <h2>Add Program</h2>
-            <form action="addProgram.php" method="post">
+            <form action="insertInto.php" method="POST">
                 <label for="programCode">Program Code:</label>
                 <input type="text" name="programCode" id="programCode" required>
                 <label for="programTitle">Program Title:</label>
@@ -46,6 +46,8 @@
             </form>
         </article>
     </section>
-    <?php include './sections/footer.php' ?>
+    <?php 
+        include './sections/footer.php'
+    ?>
 </body>
 </html>

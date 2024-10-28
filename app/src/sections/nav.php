@@ -16,7 +16,7 @@
         } ?> href='./schedule.php'>Schedule</a>
         <a <?php if ($activePage == "Database") {
             echo 'class="active"';
-        } ?> href='./Database'>Database List</a>
+        } ?> href='./databaselist.php'>Database List</a>
         <a <?php if ($activePage == "contact") {
             echo 'class="active"';
         } ?> href='http://localhost:8113/'>phpMyAdmin</a>

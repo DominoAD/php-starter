@@ -77,9 +77,14 @@
 <body>
     <div class="content">
         <section class="indexContent">
-            <h1>Welcome to the Index</h1>
+            <h1>Welcome to <?php echo $pageName; ?></h1>
             <p>This is a sample section with some basic styling applied. You can add more content here as needed.</p>
             <p>For more information, visit <a href="#">this link</a>.</p>
+            <?php
+                echo '<pre>';
+                var_dump($_POST);
+                echo '</pre>';
+            ?> 
         </section>
     </div>
     <footer>
