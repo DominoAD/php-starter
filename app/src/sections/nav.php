@@ -20,7 +20,7 @@
         <a <?php if ($activePage == "contact") {
             echo 'class="active"';
         } ?> href='http://localhost:8113/'>phpMyAdmin</a>
-        <a <?php if ($activePage == "email") {
+        <a <?php if ($activePage == "legend") {
             echo 'class="active"';
-        } ?> href='./email.php'>Email</a>
+        } ?> href='./legend.php'>legend</a>
 </nav>

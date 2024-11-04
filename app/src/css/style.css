@@ -164,7 +164,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
@@ -291,5 +292,93 @@ a:hover {
     .indexContent {
         padding: 10px; /* Less padding on small screens */
         margin: 10px; /* Less margin on small screens */
+    }
+}
+/* Responsive adjustments for improved readability and usability */
+
+/* General container and layout adjustments for tablet and mobile */
+@media (max-width: 1024px) {
+    .container {
+        width: 95%; /* A slight increase in width */
+        padding: 15px; /* Less padding */
+    }
+
+    header, footer {
+        padding: 15px;
+    }
+}
+
+/* Additional mobile adjustments for screens under 768px */
+@media (max-width: 768px) {
+    .topnav {
+        flex-direction: column; /* Stack nav items vertically */
+    }
+
+    .topnav a {
+        display: block;
+        padding: 12px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    header, footer {
+        padding: 15px;
+    }
+
+    /* Table and button adjustments for smaller screens */
+    table th, table td {
+        padding: 8px;
+        font-size: 14px; /* Reduced font size */
+    }
+
+    button, .button {
+        font-size: 15px; /* Button font resize */
+        padding: 8px 12px;
+    }
+}
+
+/* Narrow mobile screens under 480px */
+@media (max-width: 480px) {
+    /* Tighter layout */
+    .container {
+        width: 95%;
+        padding: 8px;
+    }
+
+    .topnav a {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], textarea, select {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    table th, table td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    button, .button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+/* Responsive adjustments for indexContent */
+@media (max-width: 600px) {
+    .indexContent {
+        padding: 10px;
+        margin: 10px;
+        font-size: 15px; /* Adjust font for readability on small screens */
+    }
+
+    .indexContent h1, .indexContent h2, .indexContent h3 {
+        font-size: 1.2em; /* Slightly reduced heading size */
+    }
+
+    .indexContent p {
+        margin-bottom: 0.8em;
     }
 }

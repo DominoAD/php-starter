@@ -25,7 +25,8 @@ $pageName = 'Home';
             <p>Repellat accusantium porro culpa dolor optio voluptatem! Ratione, non eum. Repellat optio tempore deleniti? Laboriosam quibusdam quos voluptas omnis saepe? Labore deleniti perferendis cum quam.</p>
         </article>
     </section>
+    <link href="https://melonking.net/styles/flood.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="https://melonking.net/scripts/flood.js"></script>
     <?php include './sections/footer.php' ?>
 </body>
-
 </html>
